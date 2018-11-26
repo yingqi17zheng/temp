@@ -1,3 +1,17 @@
+##MS&E 211X
+##Yingqi Zheng
+##HW5 Question 5
+
+# (a)
+'The optimal point is [0.0, 3.3591924730804372, 3.3591924730804372]'
+'Optimal objective value is 0.36237437810655615'
+'Achieved at the 1130th iteration.'
+
+# (b)
+'Please see the attached graph at the end of the pdf file'
+
+# (c)
+
 import math
 import matplotlib
 matplotlib.use("TkAgg")
@@ -55,6 +69,9 @@ def main():
 	plt.xlabel('iteration number')
 	plt.show()
 
-main()
+	print(i)
+	print(x)
+	print(f_values[i-1])
 
+main()
 
